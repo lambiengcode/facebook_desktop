@@ -20,10 +20,17 @@ class SuggestedFriends extends StatelessWidget {
         mainAxisAlignment: MainAxisAlignment.start,
         children: [
           FriendCard(
-            margin: EdgeInsets.only(top: 15),
+            margin: EdgeInsets.only(top: 7.5),
             name: _faker.person.name(),
             image:
-                'https://images-na.ssl-images-amazon.com/images/M/MV5BMjExOTY3NzExM15BMl5BanBnXkFtZTgwOTg1OTAzMTE@._V1_UX172_CR0,0,172,256_AL_.jpg',
+                'https://images.unsplash.com/photo-1529626455594-4ff0802cfb7e?ixid=MXwxMjA3fDB8MHxzZWFyY2h8Mnx8bW9kZWx8ZW58MHx8MHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60',
+            online: false,
+          ),
+          FriendCard(
+            margin: EdgeInsets.only(top: 7.5),
+            name: _faker.person.name(),
+            image:
+                'https://images.unsplash.com/photo-1516726817505-f5ed825624d8?ixid=MXwxMjA3fDB8MHxzZWFyY2h8M3x8bW9kZWx8ZW58MHx8MHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60',
             online: false,
           ),
         ],

@@ -1,4 +1,3 @@
-
 import 'package:facebook_desktop/components/user_online_status.dart';
 import 'package:facebook_desktop/screens/home/components/section.dart';
 import 'package:flutter/material.dart';
@@ -22,6 +21,7 @@ class FriendCard extends StatelessWidget {
   Widget build(BuildContext context) {
     return Container(
       margin: margin,
+      padding: EdgeInsets.symmetric(vertical: 10.0, horizontal: 8.0),
       decoration: BoxDecoration(
         color: Colors.white,
         borderRadius: BorderRadius.circular(10),

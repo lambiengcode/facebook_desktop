@@ -1,7 +1,6 @@
 import 'package:facebook_desktop/components/user_tile.dart';
 import 'package:facebook_desktop/screens/home/feed/card.dart';
 import 'package:facebook_desktop/screens/post/widget.dart';
-import 'package:faker/faker.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_feather_icons/flutter_feather_icons.dart';
 import 'package:like_button/like_button.dart';
@@ -12,8 +11,6 @@ class Post extends StatefulWidget {
 }
 
 class _PostState extends State<Post> {
-  final _faker = Faker();
-
   @override
   Widget build(BuildContext context) {
     return Container(
@@ -26,9 +23,9 @@ class _PostState extends State<Post> {
             Padding(
               padding: const EdgeInsets.all(15),
               child: UserTile(
-                name: _faker.person.name(),
+                name: 'lambiengcode',
                 image:
-                    'https://images.unsplash.com/photo-1549068106-b024baf5062d?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=200&fit=max&ixid=eyJhcHBfaWQiOjE3Nzg0fQ',
+                    'https://avatars.githubusercontent.com/u/60530946?s=460&u=e342f079ed3571122e21b42eedd0ae251a9d91ce&v=4',
                 trailing: Icon(
                   FeatherIcons.moreVertical,
                   color: Colors.grey,
@@ -41,7 +38,7 @@ class _PostState extends State<Post> {
               child: Column(
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
-                  Text('This weekend was unforgettable. Thanks my friends <3'),
+                  Text('Hello, I\'m a Mobile App Developer...'),
                   SizedBox(height: 15),
                   GestureDetector(
                     onTap: () {
@@ -54,12 +51,15 @@ class _PostState extends State<Post> {
                         ),
                       );
                     },
-                    child: Hero(
-                      tag: 'post-hero',
-                      child: ClipRRect(
-                        borderRadius: BorderRadius.circular(10),
-                        child: Image.network(
-                          'https://res.cloudinary.com/practicaldev/image/fetch/s--EPQDBC2W--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://cdn-images-1.medium.com/max/1600/1%2AMGZ23iwd1nuouibCC-_-xg.jpeg',
+                    child: Container(
+                      height: 480.0,
+                      width: 1000.0,
+                      decoration: BoxDecoration(
+                        borderRadius: BorderRadius.circular(16.0),
+                        image: DecorationImage(
+                          image: NetworkImage(
+                              'https://images.unsplash.com/photo-1519644473771-e45d361c9bb8?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MTEwfHxtb2RlbHxlbnwwfHwwfA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60'),
+                          fit: BoxFit.cover,
                         ),
                       ),
                     ),

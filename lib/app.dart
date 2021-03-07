@@ -7,6 +7,7 @@ class FacebookApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      title: 'Facebook',
       theme: getTheme(context),
       home: HomeScreen(),
       debugShowCheckedModeBanner: false,

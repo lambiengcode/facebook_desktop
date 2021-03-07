@@ -22,8 +22,7 @@ class PostScreen extends StatelessWidget {
               child: ClipRRect(
                 borderRadius: BorderRadius.circular(10),
                 child: Image.network(
-                  'https://res.cloudinary.com/practicaldev/image/fetch/s--EPQDBC2W--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://cdn-images-1.medium.com/max/1600/1%2AMGZ23iwd1nuouibCC-_-xg.jpeg',
-                ),
+                    'https://avatars.githubusercontent.com/u/60530946?s=460&u=e342f079ed3571122e21b42eedd0ae251a9d91ce&v=4'),
               ),
             ),
           ),

@@ -31,7 +31,8 @@ class _StoriesState extends State<Stories> {
             Padding(
               padding: const EdgeInsets.only(right: 15),
               child: Story(
-                story: 'https://picsum.photos/id/1005/500/500',
+                story:
+                    'https://avatars.githubusercontent.com/u/60530946?s=460&u=e342f079ed3571122e21b42eedd0ae251a9d91ce&v=4',
               ),
             ),
             Padding(
@@ -85,8 +86,7 @@ class _StoriesState extends State<Stories> {
               padding: const EdgeInsets.symmetric(horizontal: 15),
               child: Story(
                 name: _faker.person.name(),
-                avatar:
-                    'https://randomuser.me/api/portraits/women/16.jpg',
+                avatar: 'https://randomuser.me/api/portraits/women/16.jpg',
                 story:
                     'https://i.picsum.photos/id/21/367/267.jpg?hmac=SVq8gysriUkJTMsfchdWmkBEDC9XWmq35VaBkl5bsVo',
               ),
@@ -95,10 +95,8 @@ class _StoriesState extends State<Stories> {
               padding: const EdgeInsets.symmetric(horizontal: 15),
               child: Story(
                 name: _faker.person.name(),
-                avatar:
-                    'https://randomuser.me/api/portraits/men/70.jpg',
-                story:
-                    'https://picsum.photos/id/200/400/400',
+                avatar: 'https://randomuser.me/api/portraits/men/70.jpg',
+                story: 'https://picsum.photos/id/200/400/400',
               ),
             ),
             Padding(
@@ -107,8 +105,7 @@ class _StoriesState extends State<Stories> {
                 name: _faker.person.name(),
                 avatar:
                     'https://pbs.twimg.com/profile_images/754232659300065280/Oh_gkODg.jpg',
-                story:
-                    'https://picsum.photos/id/20/400/400',
+                story: 'https://picsum.photos/id/20/400/400',
               ),
             ),
           ],

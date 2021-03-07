@@ -23,28 +23,28 @@ class YourFriends extends StatelessWidget {
             margin: EdgeInsets.only(top: 7.5),
             name: _faker.person.name(),
             image:
-                'https://pbs.twimg.com/profile_images/913492942408609792/8Q-zGQuK.jpg',
+                'https://images.unsplash.com/photo-1508606572321-901ea443707f?ixid=MXwxMjA3fDB8MHxzZWFyY2h8NDF8fG1vZGVsfGVufDB8fDB8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60',
             online: true,
           ),
           FriendCard(
-            margin: EdgeInsets.only(top: 15),
+            margin: EdgeInsets.only(top: 7.5),
             name: _faker.person.name(),
             image:
-                'https://images-na.ssl-images-amazon.com/images/M/MV5BMjExOTY3NzExM15BMl5BanBnXkFtZTgwOTg1OTAzMTE@._V1_UX172_CR0,0,172,256_AL_.jpg',
+                'https://images.unsplash.com/photo-1481824429379-07aa5e5b0739?ixid=MXwxMjA3fDB8MHxzZWFyY2h8NDh8fG1vZGVsfGVufDB8fDB8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60',
             online: true,
           ),
           FriendCard(
-            margin: EdgeInsets.only(top: 15),
+            margin: EdgeInsets.only(top: 7.5),
             name: _faker.person.name(),
             image:
-                'https://images-na.ssl-images-amazon.com/images/M/MV5BODM5NzU4MTI4OF5BMl5BanBnXkFtZTgwNDczMDU5ODE@._V1_UX172_CR0,0,172,256_AL_.jpg',
+                'https://images.unsplash.com/photo-1440589473619-3cde28941638?ixid=MXwxMjA3fDB8MHxzZWFyY2h8NTF8fG1vZGVsfGVufDB8fDB8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60',
             online: true,
           ),
           FriendCard(
-            margin: EdgeInsets.only(top: 15),
+            margin: EdgeInsets.only(top: 7.5),
             name: _faker.person.name(),
             image:
-                'https://images.unsplash.com/photo-1476956207128-beccf17c1771?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=200&fit=max&s=52bbdebca6084fffac43984574db3038',
+                'https://images.unsplash.com/photo-1456885284447-7dd4bb8720bf?ixid=MXwxMjA3fDB8MHxzZWFyY2h8NTd8fG1vZGVsfGVufDB8fDB8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60',
             online: false,
           ),
         ],
